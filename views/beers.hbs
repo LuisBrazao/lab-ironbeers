@@ -3,6 +3,7 @@
         {{#each beers}}
         <div class="col-md-4">
             <div class="card">
+                <img class="card-img-top" src="{{image_url}}" alt="{{name}}" style="max-height: 500px; max-width: 100px" />
                 {{> beerpartial this}}
             </div>
         </div>
